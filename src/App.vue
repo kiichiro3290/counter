@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <counter/>
+    <get-api></get-api>       
   </div>
 </template>
 
 <script>
 
-import Counter from './components/Counter.vue'
+//import Counter from './components/Counter.vue'
+import GetApi from './components/GetAPI.vue'
 
 export default {
   name: 'App',
   components: {
-    Counter
+    //Counter,
+    GetApi,
   }
 }
 
